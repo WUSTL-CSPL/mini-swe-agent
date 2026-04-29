@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://mini-swe-agent.com/latest/"><img src="https://github.com/SWE-agent/mini-swe-agent/raw/main/docs/assets/mini-swe-agent-banner.svg" alt="mini-swe-agent banner" style="height: 7em"/></a>
+<a href="https://mini-swe-agent.com/latest/"><img src="https://github.com/WUSTL-CSPL/mini-swe-agent/raw/main/docs/assets/mini-swe-agent-banner.svg" alt="mini-swe-agent banner" style="height: 7em"/></a>
 </div>
 
 # The minimal AI software engineering agent
@@ -13,7 +13,7 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/mini-swe-agent?style=for-the-badge&logo=python&logoColor=white&labelColor=black&color=deeppink)](https://pypi.org/project/mini-swe-agent/)
 
 > [!WARNING]
-> This is **mini-swe-agent v2**. Read the [migration guide](https://mini-swe-agent.com/latest/advanced/v2_migration/). For the previous version, check out the [v1 branch](https://github.com/SWE-agent/mini-swe-agent/tree/v1).
+> This is **mini-swe-agent v2**. Read the [migration guide](https://mini-swe-agent.com/latest/advanced/v2_migration/). For the previous version, check out the [v1 branch](https://github.com/WUSTL-CSPL/mini-swe-agent/tree/v1).
 
 In 2024, we built [SWE-bench](https://github.com/swe-bench/SWE-bench) & [SWE-agent](https://github.com/swe-agent/swe-agent) and helped kickstart the coding agent revolution.
 
@@ -22,8 +22,8 @@ We now ask: **What if our agent was 100x simpler, and still worked nearly as wel
 `mini` is
 
 - **Widely adopted**: Used by Meta, NVIDIA, Essential AI, IBM, Nebius, Anyscale, Princeton University, Stanford University, and many more.
-- **Minimal**: Just some 100 lines of python for the [agent class](https://github.com/SWE-agent/mini-swe-agent/blob/main/src/minisweagent/agents/default.py) (and a bit more for the [environment](https://github.com/SWE-agent/mini-swe-agent/blob/main/src/minisweagent/environments/local.py),
-[model](https://github.com/SWE-agent/mini-swe-agent/blob/main/src/minisweagent/models/litellm_model.py), and [run script](https://github.com/SWE-agent/mini-swe-agent/blob/main/src/minisweagent/run/hello_world.py)) — no fancy dependencies!
+- **Minimal**: Just some 100 lines of python for the [agent class](https://github.com/WUSTL-CSPL/mini-swe-agent/blob/main/src/minisweagent/agents/default.py) (and a bit more for the [environment](https://github.com/WUSTL-CSPL/mini-swe-agent/blob/main/src/minisweagent/environments/local.py),
+[model](https://github.com/WUSTL-CSPL/mini-swe-agent/blob/main/src/minisweagent/models/litellm_model.py), and [run script](https://github.com/WUSTL-CSPL/mini-swe-agent/blob/main/src/minisweagent/run/hello_world.py)) — no fancy dependencies!
 - **Performant:** Scores >74% on the [SWE-bench verified benchmark](https://www.swebench.com/); starts much faster than Claude Code
 - **Deployable:** Supports **local environments**, **docker/podman**, **singularity/apptainer**, **bublewrap**, **contree**, and more
 - **Compatible:** Supports all models via **litellm**, **openrouter**, **portkey**, and more. Support for `/completion` and `/response` endpoints, interleaved thinking etc.
@@ -170,7 +170,7 @@ mini  # run the CLI
 **Option 3:** Install from source (developer setup)
 
 ```bash
-git clone https://github.com/SWE-agent/mini-swe-agent.git
+git clone https://github.com/WUSTL-CSPL/mini-swe-agent.git
 cd mini-swe-agent && pip install -e .
 mini  # run the CLI
 ```
